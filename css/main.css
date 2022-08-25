@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+button {
+    background-color: rgb(218, 29, 29);
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+    width: 63px;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+
+button:hover {
+    background-color: rgb(19, 13, 13);
+    cursor: pointer;
+}
+
+#close {
+    position: absolute;
+    left: 135px;
+}
+
+.container {
+    background-color: rgb(218, 29, 29);
+    width: 130px;
+    height: 100vh;
+    color: white;
+}
+
+.container p {
+    padding: 10px;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+
+.container p:hover {
+    background-color: rgb(19, 13, 13);
+    margin-left: 2px;
+}
+
+.hide {
+    display: none;
+}
